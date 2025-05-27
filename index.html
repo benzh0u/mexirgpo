@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mexir GPO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      h.one {
+        font-family: "HelveticaNeue-Light";
+        font-size: 58px;
+      }
+      h.two {
+        font-family: "HelveticaNeue-Light";
+        font-size: 56px;
+      }
+      h.three {
+        font-family: "HelveticaNeue-Light";
+        font-size: 35px;
+      }
+      h.four {
+        font-family: "HelveticaNeue-Light";
+        font-size: 30px;
+      }
+      p.one {
+        font-family: "HelveticaNeue-Light";
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="Landing">
+      <div class="min-h-screen bg-cover bg-center" style = "background-image: url('images/bg.avif')"><!--1st section-->
+        <nav class="flex flex-col sm:flex-row 
+          items-center justify-center sm:justify-between 
+          px-8 py-2 
+          text-white sm:text-white 
+          bg-transparent sm:bg-transparent 
+          min-[640px]:bg-transparent 
+          bg-white sm:bg-transparent 
+          sm:text-white text-black">
+          <img src="images/logo.avif" alt="logo">
+          <div class="hidden sm:flex space-x-10">
+            <a href="#About" class="hover:underline" style="font-family: HelveticaNeue-Light; letter-spacing: 2px">About</a>
+            <a href="#Services" class="hover:underline" style="font-family: HelveticaNeue-Light; letter-spacing: 2px">Services</a>
+            <a href="#Contact" class="hover:underline" style="font-family: HelveticaNeue-Light; letter-spacing: 2px">Contact</a>
+          </div>
+        </nav>
+        <div class="bg-black" style="height: 1px;"></div>
+        <div class="
+          absolute 
+         top-24 left-4 w-[90%] 
+         sm:top-32 sm:left-8 sm:w-[80%] 
+         md:top-40 md:left-16 md:w-[600px] 
+         lg:top-56 lg:left-32 lg:w-[680px] 
+         bg-black/10 backdrop-blur-3xl p-10 rounded-3xl 
+         text-white shadow-lg pl-[40px]">
+          <h1 class="font-light leading-tight mb-4 pb-[10px]" style="font-size: 3.375rem">
+            Raíces que unen.<br />
+            Compras que rinden.
+          </h1>
+          <p class="font-light leading-tight mb-4 pb-[10px]" style="font-size: 20px">
+            Helping Independent Mexican Restaurants Save<br />
+            Thousands on Food & Supplies.
+          </p>
+          <p class="font-thin italic leading-tight mb-4 pb-[20px]" style="font-size: 20px">
+            Join our exclusive buying network and unlock access to<br />
+            negotiated pricing, rebates, and insider support
+          </p>
+          <div class="bg-white text-black rounded-3xl px-4 h-10 w-max flex items-center">
+            <p class="font-light text-center">
+              Start Saving Now
+            </p>
+          </div><br />
+          <div class="flex items-center space-x-4">
+            <div class="bg-white h-12" style="width: 2px;"></div>
+            <div class="flex flex-col">
+              <div class="flex gap-2"> 
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" class="w-4 h-4">
+                  <path d="M12 .587l3.668 7.431L24 9.748l-6 5.848L19.335 24 12 20.202 
+                          4.665 24 6 15.596 0 9.748l8.332-1.73z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" class="w-4 h-4">
+                  <path d="M12 .587l3.668 7.431L24 9.748l-6 5.848L19.335 24 12 20.202 
+                          4.665 24 6 15.596 0 9.748l8.332-1.73z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" class="w-4 h-4">
+                  <path d="M12 .587l3.668 7.431L24 9.748l-6 5.848L19.335 24 12 20.202 
+                          4.665 24 6 15.596 0 9.748l8.332-1.73z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" class="w-4 h-4">
+                  <path d="M12 .587l3.668 7.431L24 9.748l-6 5.848L19.335 24 12 20.202 
+                          4.665 24 6 15.596 0 9.748l8.332-1.73z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" class="w-4 h-4">
+                  <path d="M12 .587l3.668 7.431L24 9.748l-6 5.848L19.335 24 12 20.202 
+                          4.665 24 6 15.596 0 9.748l8.332-1.73z" />
+                </svg>
+              </div>
+              <p class="font-thin text-center">
+                Get the savings you deserve.
+              </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="About">
+      <div class="bg-white w-full py-24"> <!--2nd section-->
+        <div class="max-w-7xl mx-auto px-6"><!--centered content-->
+          <div class="flex flex-col lg:flex-row items-center justify-between gap-8"> <!--row A-->
+            <div class="lg:w-1/2 pt-5 pb-5"> <!--box-->
+              <p class="text-4xl font-light">
+                We help independent Mexican restaurants unlock the bulk discounts big chains enjoy. No more vendor price-hunting—we do it for you.  
+              </p> <!--text-->
+            </div>
+            <div class="pt-5 pb-5">
+              <img src="images/chefhandingfood.avif" class="rounded-2xl w-full max-w-sm mx-auto">
+            </div>
+          </div>
+          <div class="h-20"> <!--row b & spacer-->
+          </div>
+          <div class="flex flex-col sm:flex-row justify-between items-start w-full max-w-7xl mx-auto px-6 gap-12 sm:gap-0"> <!-- row C -->
+            <div class="w-full sm:w-[220px]">
+              <div class="border-t-2 border-black mb-4 h-[10px] w-full sm:w-[220px]"></div>
+              <h3 class="text-5xl sm:text-7xl HelveticaNeue-Light">100+</h3>
+              <p class="text-xl sm:text-2xl mt-2">Member restaurants</p>
+            </div>
+
+            <div class="w-full sm:w-[240px]">
+              <div class="border-t-2 border-black mb-4 h-[10px] w-full sm:w-[220px]"></div>
+              <h3 class="text-5xl sm:text-7xl HelveticaNeue-Light">5–20%</h3>
+              <p class="text-xl sm:text-2xl mt-2">Average cost savings</p>
+            </div>
+
+            <div class="w-full sm:w-[220px]">
+              <div class="border-t-2 border-black mb-4 h-[10px] w-full sm:w-[220px]"></div>
+              <h3 class="text-5xl sm:text-7xl HelveticaNeue-Light">50+</h3>
+              <p class="text-xl sm:text-2xl mt-2">Key SKUs negotiated</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Services">
+      <div class="w-full"> <!--3rd section-->
+        <!-- Full-width image -->
+        <img src="images/ChefSleeveRolling.avif" alt="ChefSleeveRolling" class="w-full" />
+
+        <!-- Section that exactly matches image width -->
+        <section class="bg-black text-white pt-10 pb-0">
+          
+          <!-- Use padding for spacing, but no max-width -->
+          <div class="pl-[110px] pr-[60px] text-left">
+            <p class="text-sm uppercase mb-2">About Us</p>
+            <h2 class="text-6xl md:text-6xl HelveticaNeue-Light leading-snug mb-0">
+              How does MEXIR GPO work? — in 3 Simple Steps
+            </h2>
+          </div>
+
+          <!-- 3 Column Grid that stretches full width -->
+          <div class="mt-10 grid grid-cols-1 md:grid-cols-3 border-white">
+            
+            <!-- Column 1 -->
+            <div class="border-t border-white p-6 pr-[120px] pl-[120px]">
+              <div class="max-w-sm mx-auto text-left pb-[30px]"><br/>
+                <img src="images/logo1.png" href="logo1"><br/>
+                <h3 class="text-3xl HelveticaNeue-Light">You authorize us to<br />negotiate on your behalf</h3>
+                <p class="text-xl text-white mt-3" style="font-family: HelveticaNeue-Light;">
+                  Sign a simple agreement that allows MEXIR GPO to connect with your current vendors to analyze your purchase volume and pricing.
+                </p><br/>
+              </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="border-t border-l border-white p-6 pr-[120px] pl-[120px]">
+              <div class="max-w-sm mx-auto text-left pb-[30px]"><br/>
+                <img src="images/logo2.png" href="logo2"><br/>
+                <h3 class="text-3xl HelveticaNeue-Light">We combine your<br />purchasing power with others</h3>
+                <p class="text-xl text-white mt-3" style="font-family: HelveticaNeue-Light;">
+                  Most Mexican restaurants order the same key products — tortillas, meats, produce, cheese, and more. By pooling that shared demand, we negotiate bulk pricing and rebates based on real volume.
+                </p><br/>
+              </div>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="border-t border-l border-white p-6 pr-[120px] pl-[120px]">
+              <div class="max-w-sm mx-auto text-left pb-[30px]"><br/>
+                <img src="images/logo3.png" href="logo3"><br/>
+                <h3 class="text-3xl HelveticaNeue-Light">You save more – and<br />get treated better</h3>
+                <p class="text-xl text-white mt-3" style="font-family: HelveticaNeue-Light;">
+                  By aligning with our preferred vendors, you unlock deeper discounts and better service. Our group’s size gives us leverage, meaning faster support, stronger relationships, and extra attention from suppliers.
+                </p><br/>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    
+    <section id="Founder">
+      <div class="bg-white w-full py-24"> <!--4th section-->
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
+            <div class="lg:w-1/2 pt-5 pb-5"> <!--box-->
+              <p class="text-5xl font-family HelveticaNeue-Light">
+                Born from Experience.<br/>
+                Built for Community.<br/><br/>
+              </p> <!--text-->
+
+              <p class="text-2xl font-thin HelveticaNeue-Light">
+                MEXIR GPO was born out of lived experience. Founded by Pedro Barajas Jr., a second-generation Mexican restaurant operator, the vision came from watching his own family navigate pricing fluctuations, vendor comparisons, and the constant pressure of keeping a restaurant alive.<br/><br/>
+  ​
+                Pedro saw his father spending hours each week shopping between vendors, trying to save pennies just to stay afloat. After attending industry events and learning from seasoned mentors, he discovered the power of contracted purchasing — a strategy national chains have used for decades to cut costs and simplify operations.<br/><br/>
+
+                Wanting to bring these same advantages to independent restaurants, Pedro began by reaching out to friends and family in the industry. What started as a small circle quickly revealed itself to be a national network — hundreds of Mexican restaurant owners facing the same challenges.<br/><br/>
+                ​
+                That’s what inspired MEXIR GPO: a smarter, community-rooted way to purchase. By simplifying food ordering and securing better pricing, we aim to make the lives of hardworking restaurant operators a little easier — and a lot more rewarding.<br/><br/>
+              </p>
+            </div>
+
+            <div class="pt-10 pb-10">
+              <img src="images/headshot.avif" class="rounded-3xl w-full max-w-xl mx-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact">
+      <div class="bg-white w-full py-20 px-6"> <!--5th section-->
+        <!-- Row 1: Heading -->
+        <div class="text-center mb-12">
+          <h2 class="text-6xl font-thin HelveticaNeue-Light">Want to learn more?</h2> <br />
+        </div>
+
+        <!-- Row 2: Contact + Form -->
+        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between gap-12">
+          <!-- Left Column: Contact Info -->
+          <div class="flex flex-col gap-6 text-center lg:text-left">
+            <div class="flex items-center gap-2 justify-center lg:justify-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M2.01 6.87c-.67 3.19 1.84 6.99 4.99 10.14s6.95 5.66 10.15 5c2.62-.55 4-1.95 4.75-3.15a.75.75 0 00-.26-1.05l-3.69-2.75a.75.75 0 00-.91.08l-2.05 2.05s-1.9-.62-4.43-3.15-3.15-4.43-3.15-4.43l2.05-2.05a.75.75 0 00.08-.91L6.92 2.28a.75.75 0 00-1.05-.26c-1.2.75-2.6 2.13-3.15 4.75z" />
+              </svg>
+              <span>401-266-8474</span>
+            </div>
+            <div class="flex items-center gap-2 justify-center lg:justify-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="4" width="20" height="16" rx="2" ry="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M22 6L12 13 2 6" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span>pedro@mexirgpo.com</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Contact Form -->
+          <form action="https://formspree.io/f/mkgrlapo" method="POST" class="w-full lg:w-1/2 space-y-4">
+            <div class="flex gap-4">
+              <input type="text" name="first" placeholder="First Name" class="w-1/2 border border-gray-300 px-4 py-2" required />
+              <input type="text" name="last" placeholder="Last Name" class="w-1/2 border border-gray-300 px-4 py-2" required />
+            </div>
+            <input type="email" name="email" placeholder="Email *" class="w-full border border-gray-300 px-4 py-2" required />
+            <textarea name="message" placeholder="Message" rows="4" class="w-full border border-gray-300 px-4 py-2" required></textarea>
+            <button type="submit" class="border border-black text-black bg-white px-6 py-2 hover:bg-black hover:text-white transition">
+              Submit
+            </button>
+          </form>
+        </div>
+
+        <!-- Row 3: Footer -->
+        <div class="mt-20 border-t pt-7 flex justify-between items-center text-sm text-gray-500">
+          <div class="flex items-center gap-1">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path d="M4 4v16h16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span>© 2025 by MEXIR GPO</span>
+          </div>
+        </div>
+      </div>
+  </section>
+  </body> 
+</html>
+
+  
